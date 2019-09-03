@@ -1,0 +1,2 @@
+# samplerouter
+VUE routing explaination
