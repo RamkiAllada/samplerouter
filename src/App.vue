@@ -9,6 +9,8 @@
 <script>
 
 import Header from './components/header/Header.vue';
+
+
 export default {
   name: "app",
   components: {
@@ -18,7 +20,7 @@ export default {
     return {
       title: "VUE ROUTER INTRO"
     };
-  }
+  },
 };
 </script>
 
