@@ -1,0 +1,10 @@
+<div class="d-flex col-4">
+    <div class="product-wrapper my-3">
+      <div class="d-flex flex-column product p-4">
+        <img :src="pInfo.profile_image || imgSRC"></img>
+        <router-link :to="{name:'productDetails',params:{id:pInfo.id,pInfo}}">{{pInfo.employee_name}}</router-link>
+        <span class="mb-2">Price: ${{pInfo.employee_salary}}</span>
+        <button class="btn btn-primary" @click="addToCart(pInfo)">Add to cart</button>
+      </div>
+   </div>
+</div>
