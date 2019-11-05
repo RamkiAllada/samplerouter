@@ -3,7 +3,8 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'npm --version'
+                sh 'echo starting the build'
+                sh 'npm run build'
             }
         }
     }
